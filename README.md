@@ -42,7 +42,6 @@ The script currently sorts files into the following categories:
 
 To customize the file categories or add new ones, modify the file_categories dictionary in the script:
 
-    ```bash
     file_categories = {
     "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp"],
     "Documents": [".pdf", ".docx", ".txt", ".xlsx", ".pptx"],
@@ -52,7 +51,6 @@ To customize the file categories or add new ones, modify the file_categories dic
     "HTML": [".html"],
     "Python": [".py"] 
     }
-    ```
 ## Contributing
 
 Feel free to fork this repository, make changes, and submit a pull request. Any improvements or additional features are welcome!
